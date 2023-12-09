@@ -1,0 +1,281 @@
+body {
+    background-color: #F6F6FA;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+/* wrapper  */
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main contetn  */
+.main-content {
+    padding: 88px 80px 40px 80px;
+    box-sizing: border-box;
+}
+
+/* sidebar  */
+.sidebar {
+    background-color: #E0EBFE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* contacts  */
+.contacts-title {
+    color: rgba(22, 29, 42, 1);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #2979ff;
+}
+
+.contacts-item {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+
+/* skills  */
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(22, 29, 42, 1);
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 16px;
+}
+
+.skills-list-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(22, 29, 42, 1);
+}
+
+/* my content  */
+.my-profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(89, 89, 89, 1);
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+/* my projects  */
+.my-projects-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-project-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.my-project-item-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 95, 255, 1);
+}
+
+.my-projects-item-tech {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(89, 89, 89, 1);
+}
+
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+
+/* Work experiance  */
+
+
+.work-experience-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+.work-experience-company {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(109, 155, 245, 1);
+}
+
+.work-experince-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 8px;
+}
+
+.work-experiance-period-separator {
+    color: rgba(0, 0, 0, 1);
+}
+
+.work-experiance-duties-list {
+    padding-left: 16px;
+}
+
+.work-experiance-duties-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(89, 89, 89, 1);
+}
+
+.work-expereince-container {
+    margin-bottom: 12px;
+}
+
+.work-experience {
+    margin-bottom: 40px;
+}
+
+
+/* Education  */
+.education-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-university {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(109, 155, 245, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-magente {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-experince-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgba(168, 168, 168, 1);
+    margin-top: 0;
+}
+
+.education-experince-period-separator {
+    color: rgba(0, 0, 0, 1);
+}
+
+.education {
+    margin-bottom: 200px;
+}
